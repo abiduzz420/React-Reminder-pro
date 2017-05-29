@@ -1,0 +1,54 @@
+body{
+  background-color: #64FFDA;
+}
+.App{
+  margin-top: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  font-size: 26px;
+  text-align: center;
+}
+
+.reminder-form{
+  padding:10px;
+  text-align: center
+}
+
+input{
+  margin:10px;
+}
+
+.list-group-item{
+  text-align: left;
+  padding:10px;
+}
+
+.list-item{
+  display: inline-block;
+}
+
+.delete-button{
+  float:right;
+  padding-left: 10px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.delete-button:hover{
+  opacity:0.8;
+  animation-name: fade-in;
+  animation-duration: 0.4s;
+}
+
+@keyframes fade-in {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 0.8;
+  }
+}
