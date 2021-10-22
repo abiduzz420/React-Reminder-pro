@@ -1,6 +1,6 @@
 # Reminder-Pro
 
-Application built while following udemy ReactJS course
+Application built while learning React JS
 
 ## Packages used in building this application:
 
